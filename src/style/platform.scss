@@ -1,0 +1,17 @@
+.platform{
+    background: linear-gradient(90deg, #dabec3 40%, #b98f9a 100%);
+    color: $white;
+   .inner{
+    @include flex(center, space-around, none);
+    padding: 20px 5px;
+    h1{
+        font-size: 80px; 
+    }
+    img{
+        width: 500px;
+        font-weight: 900;
+        margin-left: $md;
+        border-radius: 8px;
+    }
+   }
+}

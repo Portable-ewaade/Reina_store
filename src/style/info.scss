@@ -1,0 +1,10 @@
+.info{
+   text-align: center;
+   align-items: start;
+   margin: 25px;
+   .btn{
+    @include flex(center,center,center);
+    margin: 20px 0px;
+    text-align: center;
+   }
+}
