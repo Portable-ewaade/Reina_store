@@ -101,4 +101,14 @@
         place-items: center;
       }
     }
+
+    //  platform 
+    .platform{
+      .inner{
+        @include grid(repeat(1, 1fr), 3px);
+      
+      }
+
+    }
   }
+  

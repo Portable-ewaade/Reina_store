@@ -8,7 +8,7 @@ export const Platform = () => {
        <h1>Talk to Us Here <br />at Reina Store</h1>
 
         {platform.map((items) => (
-    <div className="platfrom" key={items.id}>
+    <div className="img" key={items.id}>
              <img src={items.cover}  alt="" />
     </div>
     ))}

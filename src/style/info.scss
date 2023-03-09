@@ -1,7 +1,7 @@
 .info{
    text-align: center;
    align-items: start;
-   margin: 25px;
+   margin: 0 auto;
    .btn{
     @include flex(center,center,center);
     margin: 20px 0px;

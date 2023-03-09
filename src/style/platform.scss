@@ -1,9 +1,9 @@
 .platform{
-    background: linear-gradient(90deg, #dabec3 40%, #b98f9a 100%);
-    color: $white;
+    background: linear-gradient(90deg, #f8eef0 40%, #eedee2 100%);
+    color: $primary;
    .inner{
-    @include flex(center, space-around, none);
     padding: 20px 5px;
+    @include grid(repeat(2, 1fr), 40px);
     h1{
         font-size: 80px; 
     }
