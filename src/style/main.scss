@@ -130,7 +130,7 @@ p {
 }
 footer {
   text-align: center;
-  @include pa_ma($xl-2, $large 0 0 0);
+  @include pa_ma($xl-2, $xl-6 0 0 0);
   background: linear-gradient(90deg, #f14164 40%, #a54a3c 100%);
   p {
     color: $light;
